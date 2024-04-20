@@ -1,0 +1,89 @@
+.Title {
+    font-family: Urbanist;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 10px;
+
+}
+
+.Main {}
+
+.Main p {
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(173, 181, 189, 1);
+    padding: 14px 0;
+}
+
+.Header {
+    font-family: Urbanist;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 15px;
+}
+
+ul h1 {
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(173, 181, 189, 1);
+}
+
+ul {
+    list-style-type: none;
+    /* Removes the default bullets */
+    padding: 0;
+    /* Removes the default padding */
+    margin: 0;
+    /* Adjusts the margin to bring the list items to the start */
+}
+
+li {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(173, 181, 189, 1);
+    position: relative;
+    padding-left: 29px;
+    margin-bottom: 5px;
+}
+
+li a {
+    border-bottom: 1px solid rgba(173, 181, 189, 1);
+    /* 1px underline */
+}
+
+li:before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    transform: translateY(-50%);
+    height: 3px;
+    width: 3px;
+    background-color: rgba(173, 181, 189, 1);
+    border-radius: 50%;
+}
+
+.Text {
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #ADB5BD;
+
+}

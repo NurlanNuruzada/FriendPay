@@ -1,0 +1,69 @@
+.MainTitle {
+    font-family: Urbanist;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: left;
+}
+
+.Main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+@media screen and (max-width: 1260px) {
+    .Main {
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .Acordion {
+        width: 100% !important;
+    }
+
+    .AcordionContainer {
+        width: 100% !important;
+    }
+
+    .MainTitle {
+        font-family: Urbanist;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 57px;
+        text-align: left;
+
+    }
+}
+
+.Acordion {
+    width: 677px;
+    height: max-content;
+    padding: 20px 0px 20px 0px;
+    gap: 20px;
+    border-width: 1px, 0px, 1px, 0px;
+    border-style: solid;
+    border-color: #495057;
+}
+
+.AcordionBtn {
+    padding: 20px 0 !important;
+    font-family: Urbanist;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    line-height: 28px !important;
+    text-align: left;
+}
+
+.Desc {
+    font-family: Urbanist;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+    text-align: left !important;
+    color: #ADB5BD;
+    padding: 20px 0 !important;
+}

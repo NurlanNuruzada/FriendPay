@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Urbanist;
+    src: url(../../../Fonts/Urbanist-VariableFont_wght.ttf);
+}
+
+.Main {
+    font-family: Urbanist;
+    width: 100%;
+    height: max-content;
+    padding: 50px 50px;
+    gap: 10px;
+    border-radius: 50px;
+    border: 2px solid #495057;
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+}
+.CardImage{
+    box-shadow: 0px 4.38px 50.93px -3.29px #5E5E5E;
+border-radius: 30px;
+}
+.LeftContainer {
+    max-width: 537px;
+    height: max-content;
+}
+
+.LeftContainer h1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 75px;
+    text-align: left;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.LeftContainer h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #ADB5BD;
+    padding-bottom: 25px;
+}
+
+.LeftContainer button {
+    width: max-content;
+    height: 44px;
+    padding: 2px 16px 0 16px;
+    gap: 10px;
+    border-radius: 97px;
+    border: 1.5px solid #495057;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.LeftContainer button img {
+    padding-bottom: 2px;
+}
+
+.RigntContainer img {
+    width: max-content;
+    height: max-content;
+}
+.RigntContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+}
+
+@media screen and (max-width: 1220px) {
+    .RigntContainer{
+        padding-top: 25px;
+    }
+    .Main {
+        padding: 30px !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-bottom: 36px;
+    }
+    .LeftContainer {
+        max-width: 437px;
+    }
+
+    .LeftContainer h1 {
+        font-size: 54px;
+        font-weight: 600;
+        line-height: 75px;
+        text-align: left;
+        color: white;
+        padding-bottom: 15px;
+    }
+    
+    .LeftContainer h2 {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: #ADB5BD;
+        padding-bottom: 25px;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    .LeftContainer h1 {
+        font-family: Urbanist;
+        font-size: 56px;
+        font-weight: 600;
+        line-height: 67px;
+        text-align: left;
+        
+    }
+    
+    .LeftContainer h2 {
+        font-family: Urbanist;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        text-align: left;
+        
+    }
+
+}

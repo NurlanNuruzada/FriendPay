@@ -1,0 +1,47 @@
+.Main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 36px;
+    gap: 20px;
+}
+
+.SecondContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 13.5px 0;
+    opacity: 0.5;
+}
+
+.Line {
+    margin: 72px 0;
+}
+
+.rights {
+    padding-top: 36px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+    color: #ADB5BD;
+    padding-bottom: 72px;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    gap: 20px;
+}
+
+.rights p {
+    min-width: max-content;
+}
+
+
+@media screen and (max-width: 1051px) {
+    .Line {
+        display: none;
+    }
+    .Main {
+        margin-top: 36px;
+    }
+}

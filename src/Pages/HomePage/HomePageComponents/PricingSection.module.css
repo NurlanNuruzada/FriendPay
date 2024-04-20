@@ -1,0 +1,242 @@
+@font-face {
+    font-family: Urbanist;
+    src: url(../../../Fonts/Urbanist-VariableFont_wght.ttf);
+}
+
+.Main {
+    font-family: Urbanist;
+    width: 100%;
+    height: max-content;
+    gap: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.LeftContainer {
+    max-width: 519px;
+    height: max-content;
+}
+
+
+.LeftContainer h1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 75px;
+    text-align: left;
+    color: white;
+    padding-bottom: 15px;
+
+}
+
+.LeftContainerInfo h2 {
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(173, 181, 189, 1);
+    padding-bottom: 25px;
+}
+
+.LeftContainerInfo button {
+    height: 44px;
+    padding: 2px 16px 0 16px;
+    gap: 10px;
+    border-radius: 97px;
+    border: 1.5px solid #495057;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.ButtonContainer button {
+    height: 44px;
+    width: 100% !important;
+    padding: 2px 16px 0 16px;
+    gap: 10px;
+    border-radius: 97px;
+    border: 1.5px solid #495057;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.LeftContainerInfo button img {
+    padding-bottom: 2px;
+}
+
+.ButtonContainer button img {
+    padding-bottom: 2px;
+}
+
+.RigntContainer {
+    max-width: 677px;
+    min-height: 284.1px;
+    padding: 50px;
+    gap: 25px;
+    border-radius: 25px;
+    border: 1px solid rgba(73, 80, 87, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.LeftContainerInfo {
+    display: block;
+}
+
+.ButtonContainer {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1220px) {
+    .LeftContainerInfo {
+        display: none;
+    }
+
+    .ButtonContainer {
+        display: flex;
+        width: 100%;
+    }
+
+    .Main {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .InfoConatiner {
+        font-family: Urbanist;
+        font-size: 32px !important;
+        font-weight: 600 !important;
+        line-height: 48px !important;
+        text-align: left;
+    }
+
+    .LeftContainer {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .RigntContainer {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .LeftContainer h1 {
+        font-family: Urbanist;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 57px;
+        text-align: left;
+        color: white;
+        padding-bottom: 15px;
+        padding: 0;
+        margin-bottom: 36px;
+    }
+
+    .LeftContainerInfo h2 {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: #ADB5BD;
+        padding-bottom: 25px;
+    }
+
+    .LogoConatiner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .RigntContainer {
+        padding: 20px;
+    }
+
+
+
+}
+
+.LogoConatiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Container {
+    width: 410px;
+}
+
+.InfoConatiner {
+    max-width: 544px;
+}
+
+.InfoConatiner h1 {
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 15px;
+}
+
+.InfoConatiner p {
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(73, 80, 87, 1);
+
+}
+
+.LogoConatiner img {
+    width: 60px;
+    height: 60px;
+    filter: brightness(0.5);
+}
+
+@media screen and (max-width: 680px) {
+    .Container {
+        width: 100% !important;
+    }
+
+
+}
+@media screen and (max-width: 700px) {
+    .InfoConatiner h1 {
+        font-family: Urbanist;
+        font-size: 32px !important;
+        font-weight: 600 !important;
+        line-height: 48px;
+    }
+
+    .InfoConatiner p {
+        font-family: Urbanist;
+        font-size: 15px !important;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+
+    }
+
+}

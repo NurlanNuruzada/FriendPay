@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Urbanist;
+    src: url(../../Fonts/Urbanist-VariableFont_wght.ttf);
+}
+
+.Main {
+    font-family: Urbanist;
+    color: white;
+}
+
+.SecondContainer {
+    display: flex;
+}
+@media screen and (max-width: 677px) {
+
+    .Line{
+        display: none;
+    }
+}

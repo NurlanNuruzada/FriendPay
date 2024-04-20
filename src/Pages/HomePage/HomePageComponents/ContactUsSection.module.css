@@ -1,0 +1,73 @@
+.Information {
+    border: 1px solid #495057;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 25px;
+    display: flex;
+    width: 100%;
+}
+
+.Main {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.Information h1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.Information p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #495057;
+}
+
+.right {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.left {
+    margin-top: 1px;
+    width: 20px !important;
+}
+
+.left img {
+    margin-top: 2px;
+    width: 100% !important;
+}
+
+@media screen and (max-width: 1050px) {
+    .Main {
+        flex-wrap: wrap;
+    }
+
+    .Title {
+        font-size: 48px !important;
+        font-weight: 600;
+        line-height: 57px;
+    }
+
+}
+
+.Title {
+    font-family: Urbanist;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: left;
+    margin-bottom: 36px;
+}
+@media screen and (max-width: 1051px) {
+    .MainContainer{
+        margin: 36px 0;
+    }
+}

@@ -1,0 +1,33 @@
+.MainContainer {
+    width: "100%";
+    background: linear-gradient(92.18deg, #0D0D0D -13.41%, #202A5C 98.17%);
+    display: flex;
+    justify-content: center;
+    padding: 36px 0;
+    min-height: 100%;
+}
+
+.Content {
+    width: 1290px;
+}
+
+.Content2 {
+    width: 100%;
+}
+
+@media screen and (max-width: 1434px) {
+    .Content2{
+        padding: 0 72px;
+    }
+    .Content {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 675px) {
+    .Content2{
+        padding: 30px 20px !important;
+    }
+    .MainContainer{
+        padding: 0;
+    }
+}
